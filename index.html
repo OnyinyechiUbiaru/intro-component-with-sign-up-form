@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Intro component with sign up form</title>
+  
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <section class="first_section">
+    <div class="div_1">
+    <h1 class="learn_code">
+      Learn to code by watching others
+    </h1>
+    <p class="first_paragraph">
+      See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+  but understanding how developers think is invaluable. 
+    </p>
+  </div>
+    
+    <div class="div_2">
+      <div><button class="btn_1">Try it free 7 days then $20/mo. thereafter
+      </button></div>
+      <form action="" id="form">
+     <div><input id="firstname" type="text" name="firstname" placeholder="First Name" onkeyup="validateFirstName()">
+    <span id="firstname-eror"></span>
+    </div> 
+      <div><input id="lastname" name="lastname" type="text" placeholder="Last Name" onkeyup="validateLastName()">
+      <span id="lastname-error"></span></div>
+      <div><input id="email" name="email" type="text" placeholder="Email Address" onkeyup="validateEmail()">
+      <span id="email-error"></span></div>
+      <div><input id="Password" name="password"  type="password" placeholder="Password" onkeyup="validatePassword()">
+      <span id="password-error"></span></div>
+    
+    <div><button class="btn_2" id="submit" onclick="return validateForm()">CLAIM YOUR FREE TRIAL 
+    </button>
+     <span id="submit-error"></span>
+  </div>
+    <p class="paragraph_2"> By clicking the button, you are agreeing to our <a href="#">Terms and Services</a></p>
+  </form>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+
+ 
+
+  
+  
+
+  
+
+ <!--
+  
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </p>
+  </footer>-->
+</body>
+</html>

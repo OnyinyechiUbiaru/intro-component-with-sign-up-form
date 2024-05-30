@@ -1,0 +1,114 @@
+body{
+    font-family: "Poppins", sans-serif;
+    background: url(./images/bg-intro-desktop.png);
+    background-color:  hsl(0, 100%, 74%) ;
+    align-items: center;
+    color: white;
+    width: 80%;
+    max-width: 1440px;
+    text-align: center;
+    margin-left: 75px;
+}
+.first_section{
+    display: flex;
+    width: 100%;
+    align-items: center;justify-content: center;
+    margin-top: 100px;
+    justify-content: space-between;
+}
+.first_paragraph{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+.btn_1{
+    background-color:  hsl(248, 32%, 49%);
+    color: hsl(246, 25%, 77%);
+    border-radius: 5px;
+    height: 35px;
+    margin-left: 250px;
+    width: 70%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+}
+.btn_2{
+    background-color:  hsl(154, 59%, 51%);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 85%;
+    padding: 10px;
+    margin-right: 10px;
+   
+}
+.div_1{
+    align-items: center;
+    width: 70%;
+    margin-left:100px;
+    float: right;
+    
+}
+.div_2{
+    width: 100%;
+}
+form{
+    width: 70%;
+    height: 80%;
+    background-color: white;
+    border-radius: 10px;
+    margin-right: 150px;
+    margin-top: 20px;
+    padding-top: 25px;
+    padding-bottom: 40px;
+    margin-left: 250px;
+    height: 50vh;
+   
+}
+h1{
+    font-size: 40px;
+    font-weight: 800;
+    line-height: none;
+}
+.paragraph_2{
+    font-size: 10px;
+    color: hsl(246, 25%, 77%);
+}
+input{
+    width: 80%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-bottom: 7px;
+    border: 1px solid #e1e5ee;
+    border-radius: 5px;
+    box-shadow: gray;
+}
+a{
+    text-decoration: none;
+    color: hsl(0, 100%, 74%);
+}
+@media screen and (max-width: 400px) {
+.first_section{
+    flex-direction: column;
+    width: 375px;
+}
+.div_1{
+    margin-right: 30px;
+}
+.div_2{
+    margin-right: 280px;
+}
+.btn_1{
+    width: 60%;
+    height: 60px;
+}
+form{
+    width: 60%;
+    margin-bottom: 50px;
+}
+}
